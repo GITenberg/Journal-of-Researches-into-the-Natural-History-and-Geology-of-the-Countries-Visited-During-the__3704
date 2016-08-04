@@ -1,0 +1,74 @@
+_repo: Journal-of-Researches-into-the-Natural-History-and-Geology-of-the-Countries-Visited-During-the__3704
+_version: 0.0.1
+alternative_title: A Naturalist's Voyage Round the World
+creator:
+  author:
+    agent_name: Darwin, Charles
+    alias: Darwin, Charles Robert
+    birthdate: 1809
+    deathdate: 1882
+    gutenberg_agent_id: '485'
+    url: http://www.gutenberg.org/2009/agents/485
+    wikipedia: http://en.wikipedia.org/wiki/Charles_Darwin
+description: "The Voyage of the Beagle is the title most commonly given to reissues\
+  \ of the book written by Charles Darwin and published in 1839 as his Journal and\
+  \ Remarks, bringing him considerable fame and respect. This was the third volume\
+  \ of The Narrative of the Voyages of H.M. Ships Adventure and Beagle, and covers\
+  \ Darwin's part in the second survey expedition of the ship HMS Beagle, which set\
+  \ sail from Plymouth Sound on 27 December 1831 under the command of Captain Robert\
+  \ FitzRoy, R.N.. Due to the popularity of Darwin's account, the publisher reissued\
+  \ it later in 1839 as Darwin's Journal of Researches, and the revised second edition\
+  \ published in 1845 used this title. A republication of the book in 1905 introduced\
+  \ the title The Voyage of the \"Beagle\".\nWhile the expedition was originally planned\
+  \ to last two years, it lasted almost five—the Beagle did not return until 2 October\
+  \ 1836. Darwin spent most of this time exploring on land (three years and three\
+  \ months on land; 18 months at sea).\nThe book is a vivid and exciting travel memoir\
+  \ as well as a detailed scientific field journal covering biology, geology, and\
+  \ anthropology that demonstrates Darwin's keen powers of observation, written at\
+  \ a time when Western Europeans were exploring and charting the whole world. Although\
+  \ Darwin revisited some areas during the expedition, for clarity the chapters of\
+  \ the book are ordered by reference to places and locations rather than by date.\
+  \ Darwin's notes made during the voyage include comments illustrating his changing\
+  \ views at a time when he was developing his theory of evolution by natural selection\
+  \ and includes some suggestions of his ideas, particularly in the second edition\
+  \ of 1845.\n\n\n From Wikipedia (CC BY-SA)."
+gutenberg_bookshelf:
+- Harvard Classics
+- Travel
+gutenberg_issued: '2003-02-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '3704'
+  wikidata: Q1768515
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Beagle Expedition (1831-1836)'
+- !lcsh 'Geology'
+- !lcsh 'Voyages around the world -- History -- 19th century'
+- !lcsh 'South America -- Discovery and exploration'
+- !lcc 'QH'
+- !lcsh 'Natural history'
+- GITenberg
+title: Journal of Researches into the Natural History and Geology of the Countries
+  Visited During the Voyage Round the World of H.M.S. Beagle Under the Command of
+  Captain Fitz Roy, R.N.
+url: http://www.gutenberg.org/ebooks/3704
+wikipedia:
+- https://fi.wikipedia.org/wiki/Beaglen_matka
+- https://fr.wikipedia.org/wiki/Le_Voyage_du_Beagle
+- https://nl.wikipedia.org/wiki/De_reis_van_de_Beagle
+- https://id.wikipedia.org/wiki/The_Voyage_of_the_Beagle
+- https://pt.wikipedia.org/wiki/A_Viagem_do_Beagle
+- https://fa.wikipedia.org/wiki/%D8%B3%D9%81%D8%B1_%D8%A8%DB%8C%DA%AF%D9%84
+- https://en.wikipedia.org/wiki/The_Voyage_of_the_Beagle
+- https://es.wikipedia.org/wiki/El_viaje_del_Beagle
+- https://simple.wikipedia.org/wiki/The_Voyage_of_the_Beagle
+- https://bg.wikipedia.org/wiki/%D0%9F%D1%8A%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5%D1%82%D0%BE_%D1%81_%D0%91%D0%B8%D0%B9%D0%B3%D1%8A%D0%BB
+- https://it.wikipedia.org/wiki/Viaggio_di_un_naturalista_intorno_al_mondo
+- https://no.wikipedia.org/wiki/The_Voyage_of_H._M._S._Beagle
+- https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%8D%B5%E7%8A%AC%E8%99%9F%E8%88%AA%E6%B5%B7%E8%A8%98
+- https://bn.wikipedia.org/wiki/%E0%A6%A6%E0%A7%8D%E0%A6%AF_%E0%A6%AD%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9C_%E0%A6%85%E0%A6%AB_%E0%A6%A6%E0%A7%8D%E0%A6%AF_%E0%A6%AC%E0%A6%BF%E0%A6%97%E0%A7%8D%E2%80%8C%E0%A6%B2
+- https://ca.wikipedia.org/wiki/El_viatge_del_Beagle

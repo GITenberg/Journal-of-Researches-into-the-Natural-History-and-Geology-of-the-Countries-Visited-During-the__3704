@@ -1,0 +1,61 @@
+sudo: required
+dist: trusty
+language: ruby
+
+before_install:
+before_install:
+- gem install asciidoctor -v 1.5.2
+- gem install tilt
+- sudo pip install git+https://github.com/gitenberg-dev/gitberg
+- sudo pip install pillow
+- sudo pip install cssutils
+- sudo pip install docutils
+- sudo pip install roman
+- sudo pip install git+https://github.com/gitenberg-dev/pg-epubmaker
+script:
+- VERSION=`ruby -e "require 'yaml'; meta = YAML.load_file('metadata.yaml'); puts meta['_version'];"`
+- git clone https://github.com/gitenberg-dev/asciidoctor-htmlbook.git
+- sudo pip install -r asciidoctor-htmlbook/gitberg-machine/requirements.txt
+
+- /usr/bin/python -c "from gitenberg import travis; travis.build_epub()"
+- ebook-convert book.epub book.mobi
+- xvfb-run ebook-convert book.epub book.pdf
+branches:
+  only:
+  - master
+notifications:
+  webhooks:
+    urls:
+      - https://unglue.it/api/travisci/webhook
+    on_success: always
+    on_failure: never
+    on_start: never
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: co+0hc66//cZVEH330Crtf/1OzTZFL4LvnGiciGhV4JzTRVKFdvad/ArExytO0AvbCjcbz08WUBgmbDMqHTggIpjvZgUpNw5imSqE5Wyy7ZS9Q8RHIXZsa/1VNJWe6rLbGlFxeH7epvqZGAIr2xYc+g1KvM4CQ/qYxn0z+8NdHxxW2mTPlnLeliMCKb2vpTCWTo+WxG8qbyROPcIUyM66bd2DtOmC4fmmT1yaMQoopB+d5zuKCAuAcRSVNRlcR6A7kK7VSmtgVfczy1F2z8yORWsQYASuTKiHz6yDC8jjT2/Ci/U3c101ZoANssyTjpQSFLwaCgQrk/aZwCcp0lPYzpXInBRMAK3PP7VUfqTMOimrpP1eiom/fGTWnyZgsNM5Pl55b/4BWrqek2sLkj89/h/qnZVdCZ9i18mehPQg9Yu31nw4OV+R0c3ZLF9furO1BKiDp78JucdUXQ78SufTcM2RLNgCvWwZZ1ayxfRww/eFnzjMmleLeM2rcVU+P8ENaH+1yJtAylIseYN+lqmoFN+DzZqeaBN4gSmI7/IRlebjbz27ib2GR6/YPqgpeH1ws2asJJWDCIASsj/AChOV31htbzIkmtK9FLXMHfnYasTZYM+nXx112Prun5HdxlfEc4IZ7wXuNbWR8eMn/+ulKhKew66dMwWrnJeHWumnBM=
+  file:
+    - book.epub
+    - book.mobi
+    - book.pdf
+  "on":
+    repo: GITenberg/Journal-of-Researches-into-the-Natural-History-and-Geology-of-the-Countries-Visited-During-the__3704
+addons:
+  apt:
+    packages:
+    - xsltproc
+    - xvfb
+    - calibre
+    - python-pip
+    - git
+    - python-dev
+    - libjpeg-dev
+    - libpng-dev
+    - libfreetype6
+    - libfreetype6-dev
+    - zlib1g-dev
+    - python-lxml
+    - libxml2-dev
+    - libxslt1-dev
+    - tidy

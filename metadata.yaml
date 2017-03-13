@@ -1,6 +1,9 @@
 _repo: Journal-of-Researches-into-the-Natural-History-and-Geology-of-the-Countries-Visited-During-the__3704
-_version: 0.1.0
+_version: 0.2.0
 alternative_title: A Naturalist's Voyage Round the World
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Darwin, Charles
@@ -32,6 +35,8 @@ description: "The Voyage of the Beagle is the title most commonly given to reiss
   \ views at a time when he was developing his theory of evolution by natural selection\
   \ and includes some suggestions of his ideas, particularly in the second edition\
   \ of 1845.\n\n\n From Wikipedia (CC BY-SA)."
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/3704#Journal-of-Researches-into-the-Natural-History-and-Geology-of-the-Countries-Visited-During-the_
 gutenberg_bookshelf:
 - Harvard Classics
 - Travel
